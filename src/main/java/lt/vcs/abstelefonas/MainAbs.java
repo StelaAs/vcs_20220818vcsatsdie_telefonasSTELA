@@ -35,5 +35,7 @@ public class MainAbs {
         System.out.println(taksofonas01);
 
         System.out.println(Constants.PI);
+
+        taksofonas01.justForTest();
     }
 }

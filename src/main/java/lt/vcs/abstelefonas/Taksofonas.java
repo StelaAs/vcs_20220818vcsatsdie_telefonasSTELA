@@ -39,6 +39,9 @@ public class Taksofonas extends Telefonas {
         this.piniguLikutis = this.piniguLikutis.add(BigDecimal.valueOf(piniguLikutis)) ;
     }
 
+    public void justForTest(){
+        System.out.println("Just test");
+    }
     @Override
     public String toString() {
         return String.format(
