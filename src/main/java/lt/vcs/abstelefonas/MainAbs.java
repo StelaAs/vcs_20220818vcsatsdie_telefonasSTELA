@@ -31,7 +31,9 @@ public class MainAbs {
         System.out.println(taksofonas01);
         taksofonas01.paskambink("8-635-47616");
         taksofonas01.setPiniguLikutis(0.80);
-        taksofonas01.paskambink("8-635-47616");
+
         System.out.println(taksofonas01);
+
+        System.out.println(Constants.PI);
     }
 }
